@@ -1,0 +1,8 @@
+export DF=~/.files
+
+. $DF/.exports
+. $DF/.aliases
+. $DF/.git-completion
+
+bind -r '\C-s'
+stty -ixon
